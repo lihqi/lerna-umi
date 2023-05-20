@@ -13,3 +13,9 @@
 - lerna（^6.6.2）+ umi（^3.5.40）+@umijs/plugin-qiankun（^2.x） + react（16.x） + videojs（8.3.0）（未复现）
 把lerna降级到4.0.0,react改回17
 - lerna（4.0.0）+ umi（^3.5.40）+@umijs/plugin-qiankun（^2.x） + react（17.x） + videojs（8.3.0）（跑不起来）
+
+使用 npm i --legacy-peer-deps 解决依赖冲突问题
+
+- lerna（4.0.0）+ umi（^3.5.40）+@umijs/plugin-qiankun（^2.x） + react（17.x） + videojs（8.3.0）（未复现）
+
+复现失败目前来看都是正常的
