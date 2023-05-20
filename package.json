@@ -1,0 +1,22 @@
+{
+    "name": "root",
+    "private": true,
+    "version": "0.0.1",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^6.6.2"
+    },
+    "scripts": {
+        "start": "lerna run --parallel --scope 'test' start",
+        "start:quick": "lerna run --parallel --stream start",
+        "dev": "npm run start",
+        "bootstrap": "lerna bootstrap",
+        "lint": "lerna run --parallel --stream lint",
+        "clean": "lerna clean ",
+        "version": "lerna version --conventional-graduate --yes",
+        "publish": "lerna publish from-package --yes",
+        "release": "standard-version"
+    }
+}
