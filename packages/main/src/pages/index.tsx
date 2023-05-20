@@ -35,14 +35,7 @@ function VideoPlayer(props) {
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <VideoPlayer />
-      <video width="640" height="480" controls>
-        <source src={url} type="video/mp4" />
-      </video>
-    </>
-  );
+  return <div>main</div>;
 }
 
 export default App;
