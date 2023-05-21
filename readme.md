@@ -19,3 +19,5 @@
 - lerna（4.0.0）+ umi（^3.5.40）+@umijs/plugin-qiankun（^2.x） + react（17.x） + videojs（8.3.0）（未复现）
 
 复现失败目前来看都是正常的
+
+增加 .nvmrc 建议node版本到 16.14.0
