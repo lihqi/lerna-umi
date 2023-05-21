@@ -1,5 +1,7 @@
 import { useState, useRef } from 'react';
-
+import { createLogger } from 'video.js/dist/types/utils/log';
+import styles from './index.scss'
+console.log(styles)
 import VideoJS from './videoJS';
 const url = `https://stream7.iqilu.com/10339/upload_transcode/202002/18/202002181038474liyNnnSzz.mp4`;
 function VideoPlayer(props) {
