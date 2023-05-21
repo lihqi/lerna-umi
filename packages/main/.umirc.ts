@@ -9,6 +9,7 @@ export default defineConfig({
     { path: '/test', microApp: 'test' },
   ],
   fastRefresh: {},
+  webpack5:{},
   qiankun: {
     master: {
       // 注册子应用信息
